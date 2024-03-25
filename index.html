@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>proyecto2</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/8548e982c6.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <div>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a class="navbar-brand" href="#">INSTAGRAM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <form class="d-flex">
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Crear Nuevo Post
+              </button>
+              <div id="exampleModal" class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Crear Nuevo Post</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+
+            <ul class="navbar-nav ms-0 mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="fa-solid fa-gear"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Perfil</a></li>
+                  <li><a class="dropdown-item" href="#">Acceso</a></li>
+                  <li><a class="dropdown-item" href="#">Privacidad</a></li>
+                  <li>
+                    <hr class="dropdown-divi">
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+
+
+
+          </div>
+        </div>
+      </nav>
+    </div>
+    <nav>
+      <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+        <div>
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+          role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-tablet"></i></button>
+        </div>
+        <div>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+          role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-table-cells"></i></button>
+        </div>
+      </div>
+      <br>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <div class="post">
+          <div class="card" style="width: 30rem;">
+            <img src="https://th.bing.com/th/id/OIP.HreoxKMKPyrR4iFAwwBKDgHaEi?rs=1&pid=ImgDetMain width:30rem "
+              class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">250 like</h5>
+              <p class="card-text">El mejor Espacio para conectarte contigo</p>
+
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="card" style="width: 30rem;">
+            <img src="https://th.bing.com/th/id/OIP.a0vokFnCk4xeDh8fmEnKQAHaEK?rs=1&pid=ImgDetMain width:30rem "
+              class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">300 like</h5>
+              <p class="card-text"> Hermoso Paisaje</p>
+
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="card" style="width: 30rem;">
+            <img
+              src="https://th.bing.com/th/id/R.beb9e007a528563f0413b8fbaa77510b?rik=YGJu1vOQD3YPnw&pid=ImgRaw&r=0 width:30rem"
+              class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">550 like</h5>
+              <p class="card-text">
+                El precioso Salto Angel
+              </p>
+
+            </div>
+          </div>
+          <div class="card" style="width: 30rem;">
+            <img src="https://www.xtrafondos.com/wallpapers/luna-llena-en-un-lago-581.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">550 like</h5>
+              <p class="card-text">
+                La Luna
+              </p>
+              <br>
+            </div>
+          </div>
+          <div class="card" style="width: 30rem;">
+            <img src="https://wallpapercave.com/wp/ENozMYj.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">260 like</h5>
+              <p class="card-text">
+                La Montaña
+              </p>
+
+            </div>
+          </div>
+          <br>
+          <div class="card" style="width: 30rem;">
+            <img src="https://th.bing.com/th/id/OIP.rir-G1cOGoo3ZohIx_xLLAHaEw?rs=1&pid=ImgDetMain" class="card-img-top"
+              alt="">
+            <div class="card-body">
+              <h5 class="card-title">350 like</h5>
+              <p class="card-text">
+                En el mar la vida es mas sabrosa
+              </p>
+
+            </div>
+          </div>
+           <br>
+          <div class="card" style="width: 30rem;">
+            <img
+              src="https://ctsassets2.check24.de/size=512x/ttl=14/di=2/nfc=301/source=aHR0cHM6Ly90Y21zLnJlaXNlbi5jaGVjazI0LmRlL3BpY3R1cmUvNjM5Mi5qcGc=!7163b3/66-bahamas.jpg"
+              class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">700 like</h5>
+              <p class="card-text">
+                Playa, Sol y Arena
+              </p>
+
+            </div>
+          </div>
+          <br>
+          <div class="card" style="width: 30rem;">
+            <img src="https://www.gratistodo.com/wp-content/uploads/2016/10/fondos-de-pantalla-de-oto%C3%B1o-wallpapers.jpg"
+              class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">550 like</h5>
+              <p class="card-text">
+                Otoño
+              </p>
+
+            </div>
+          </div>
+          <div class="card" style="width: 30rem;">
+            <img src="https://th.bing.com/th/id/OIP.KL5GHr25u2TqDVz2fpE-HQHaEK?rs=1&pid=ImgDetMain"
+              class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">550 like</h5>
+              <p class="card-text">
+                primavera
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+        <div class="container">
+          <div class="row">
+            <div class="col" >
+              <img src="https://th.bing.com/th/id/OIP.HreoxKMKPyrR4iFAwwBKDgHaEi?rs=1&pid=ImgDetMain "
+              style="width: 320px;" class="card-img-top" alt="">
+            </div>
+            <div class="col">
+              <img src="https://th.bing.com/th/id/OIP.a0vokFnCk4xeDh8fmEnKQAHaEK?rs=1&pid=ImgDetMain  " style="width: 320px;" >
+            </div>
+            <div class="col">
+              <img
+                src="https://th.bing.com/th/id/R.beb9e007a528563f0413b8fbaa77510b?rik=YGJu1vOQD3YPnw&pid=ImgRaw&r=0 "
+                style="width: 320pz;" class="card-img-top" alt="">
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="https://www.xtrafondos.com/wallpapers/luna-llena-en-un-lago-581.jpg" style="width: 320pz;" class="card-img-top" alt="">
+            </div>
+            <div class="col">
+              <img src="https://th.bing.com/th/id/OIP.rir-G1cOGoo3ZohIx_xLLAHaEw?rs=1&pid=ImgDetMain" style="width: 320px;" class="card-img-top">
+            </div>
+            
+            <div class="col">
+              <img
+              src="https://ctsassets2.check24.de/size=512x/ttl=14/di=2/nfc=301/source=aHR0cHM6Ly90Y21zLnJlaXNlbi5jaGVjazI0LmRlL3BpY3R1cmUvNjM5Mi5qcGc=!7163b3/66-bahamas.jpg"
+              style="width: 310px;" class="card-img-top" alt="">
+            </div> 
+          </div>
+          
+          <div class="row">
+            <div class="col">
+              
+                <img src="https://wallpapercave.com/wp/ENozMYj.jpg" style="width: 320px" class="card-img-top" alt="">
+              
+            </div>
+            
+            <div class="col">
+              <img src="https://www.gratistodo.com/wp-content/uploads/2016/10/fondos-de-pantalla-de-oto%C3%B1o-wallpapers.jpg"
+              style="width: 320px" class="card-img-top" alt="">  
+            </div>
+            
+            <div class="col">
+              <img src="https://th.bing.com/th/id/OIP.KL5GHr25u2TqDVz2fpE-HQHaEK?rs=1&pid=ImgDetMain"
+              style="width: 300px;" class="card-img-top" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

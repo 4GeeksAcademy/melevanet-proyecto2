@@ -1,0 +1,12 @@
+.post{
+    flex-direction: column;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-link {
+
+    flex:1;
+    justify-content: center;
+}
