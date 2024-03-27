@@ -10,3 +10,10 @@
     flex:1;
     justify-content: center;
 }
+
+.row{
+ width: 300px;
+ flex:content;
+ flex-direction: column;
+}
+
