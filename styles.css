@@ -5,15 +5,26 @@
     align-items: center;
     
 }
-.nav-link {
+/* .nav-link {
 
     flex:1;
     justify-content: center;
-}
+} */
 
-.row{
- width: 300px;
- flex:content;
- flex-direction: column;
-}
+  .container{
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+ .row{
+  display: flex;
+  justify-content: center;
+  justify-items: auto;
+
+  width:1100px;
+  padding:2px;
+  border: 3px;
+}  
 
