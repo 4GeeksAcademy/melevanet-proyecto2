@@ -11,14 +11,14 @@
     justify-content: center;
 } */
 
-  .container{
+  /* .container{
   display: flex;
   width: 100px;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
 } 
 
- .row{
+ /* .row{
   display: flex;
   justify-content: center;
   justify-items: auto;
@@ -26,5 +26,5 @@
   width:1100px;
   padding:2px;
   border: 3px;
-}  
+}   */
 
